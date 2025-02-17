@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/football_stadium"
+            android:gravity="fill"/>
+    </item>
+    <item>
+        <color android:color="#A0000000"/> <!-- Semi-transparent black overlay -->
+    </item>
+</layer-list>

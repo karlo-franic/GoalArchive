@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Darker color for odd rows -->
+    <item android:drawable="@android:color/darker_gray" android:state_activated="true"/>
+
+    <!-- Lighter color for even rows -->
+    <item android:drawable="@android:color/white"/>
+</selector>
