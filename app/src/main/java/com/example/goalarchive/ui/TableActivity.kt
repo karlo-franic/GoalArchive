@@ -126,6 +126,7 @@ class TableActivity : AppCompatActivity() {
                         intent.putExtra("id", match.id)
                         intent.putExtra("LeagueID", match.league_id)
                         startActivity(intent)
+                        finish()
                     }
                 }
 
